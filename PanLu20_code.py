@@ -764,7 +764,7 @@ def PanLU_algorithm(timestep,dual_threshold,ivt_east,ivt_north,ivt_total,IVT_lon
         key=str(timestep)+'_'+str(jj)
         jj=jj+1   
         
-# IVT coherence IDR calculation and segmentation
+# IVT coherence IDR calculation
         ivt_coherence_idr=np.zeros(np.shape(ar_pathway))
         ivt_coherence_idr[:]=np.nan
         for l in range(0,len(y_geo)):
